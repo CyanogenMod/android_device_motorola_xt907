@@ -21,7 +21,7 @@
 # definition file).
 #
 
--include device/motorola/msm8960-common/BoardConfigCommon.mk
+-include device/motorola/qcom-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/motorola/xt907/BoardConfigVendor.mk
