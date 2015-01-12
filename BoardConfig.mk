@@ -28,6 +28,11 @@
 
 LOCAL_PATH := device/motorola/xt907
 
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_msm
+TARGET_LIBINIT_DEFINES_FILE := device/motorola/moto_msm8960/init/init_xt907.c
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := xt907,scorpion_mini,smq
 
