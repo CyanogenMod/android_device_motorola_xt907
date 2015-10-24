@@ -4,7 +4,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/motorola/qcom-common/overlay-cm
+#DEVICE_PACKAGE_OVERLAYS += device/motorola/qcom-common/overlay-cm
 
 # Media
 PRODUCT_COPY_FILES += \
